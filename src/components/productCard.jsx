@@ -15,7 +15,7 @@ function ProductCard(props) {
   } = props.data;
   return (
     <div style={{ alignItems: "center" }}>
-      <div id={id} className="card mb-4 " style={{ width: "16rem" }}>
+      <div id={id} className="card mb-4 " style={{ width: "18rem" }}>
         <img className="card-img-top" src={productImage} alt="" />
         <div className="card-body text-center">
           <h4 className="card-title">{productName}</h4>
